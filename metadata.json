@@ -1,0 +1,9 @@
+{
+    "id": "BreakingBalatro",
+    "name": "BreakingBalatro",
+    "author": ["Flux"],
+    "description": "JESSIE, WE NEED TO REACH ANTE 8!",
+    "prefix": "meth",
+    "main_file": "main.lua",
+    "version": "0.0.1"
+}
