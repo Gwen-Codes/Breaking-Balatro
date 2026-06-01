@@ -18,6 +18,14 @@ return {
                     'card is destroryed',
                     'at end of round'
                 }
+            },
+            j_meth_kingpin = {
+                name = 'The Kingpin',
+                text = {
+                    'Earn {C:money}$15{} at end of round',
+                    '{C:green}1 in 10{} chance this card', 
+                    'is destroryed at end of {C:attention}round'
+                }
             }
         }
     }
