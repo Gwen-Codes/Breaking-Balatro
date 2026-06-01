@@ -25,7 +25,8 @@ SMODS.Joker {
                 SMODS.destroy_cards(card, nil, nil, true)
                 G.GAME.pool_flags.meth_kingpin_extinct = true
                 return {
-                    message = localize('k_melted_ex')
+                    remove_default_message = true,
+                    message = localize('k_boom_ex')
                 }
             else
                 return {
