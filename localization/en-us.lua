@@ -26,6 +26,14 @@ return {
                     '{C:green}1 in 10{} chance this card', 
                     'is destroryed at end of {C:attention}round'
                 }
+            },
+            j_meth_pinkman = {
+                name = 'The Addict',
+                text =  {
+                        '{X:mult,C:white}X3{} Mult{} when {C:Chips}chips{}',
+                        'scored exceed {C:attention}300'
+
+                }   
             }
         }
     }
