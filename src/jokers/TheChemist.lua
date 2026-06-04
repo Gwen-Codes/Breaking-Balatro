@@ -8,8 +8,8 @@ SMODS.Joker {
     config = { 
         extra = { chips = 0, chip_mod = 5 } 
     },
-    rarity = 2,
-    cost = 5,
+    rarity = 3,
+    cost = 6,
     loc_vars = function(self, info_queue, card)
         return {
             vars = {

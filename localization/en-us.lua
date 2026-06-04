@@ -34,6 +34,16 @@ return {
                         'scored exceed {C:attention}300'
 
                 }   
+            },
+            j_meth_saul = {
+                name = 'The Lawyer',
+                text = {
+                    'Add{C:money} $3{} to the', 
+                    '{C:money}sell value {}of all {C:attention}Jokers{}',
+                    'at {C:attention}end of round'
+
+                }
+
             }
         }
     }

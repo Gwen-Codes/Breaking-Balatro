@@ -10,7 +10,7 @@ SMODS.Joker {
     config = { 
         extra = {odds = 7, dollars = 6 } 
     },
-    rarity = 2,
+    rarity = 3,
     cost = 6,
     loc_vars = function(self, info_queue, card)
         local numerator, denominator = SMODS.get_probability_vars(card, 1, card.ability.extra.odds, 'meth_chickenman')
@@ -24,13 +24,11 @@ SMODS.Joker {
             if SMODS.pseudorandom_probability(card, 'meth_chickenman', 1, card.ability.extra.odds) then
                 SMODS.destroy_cards(card, nil, nil, true)
                 G.GAME.pool_flags.meth_chickenman_extinct = true
-                return {
-                    remove_default_message = true,
-                    message = localize('k_boom_ex')
-                }
+              return {
+                    message = "BOOM!"}
             else
                 return {
-                    message = localize('k_safe_ex')
+                    message = "Last Chance To Look!"
                 }
             end
         end

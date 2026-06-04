@@ -10,7 +10,7 @@ SMODS.Joker {
     config = { 
         extra = {odds = 10, dollars = 15 } 
     },
-    rarity = 2,
+    rarity = 3,
     cost = 6,
     loc_vars = function(self, info_queue, card)
         local numerator, denominator = SMODS.get_probability_vars(card, 1, card.ability.extra.odds, 'meth_kingpin')
@@ -25,12 +25,10 @@ SMODS.Joker {
                 SMODS.destroy_cards(card, nil, nil, true)
                 G.GAME.pool_flags.meth_kingpin_extinct = true
                 return {
-                    remove_default_message = true,
-                    message = localize('k_boom_ex')
-                }
+                    message = "..."}
             else
                 return {
-                    message = localize('k_safe_ex')
+                    message = "..."
                 }
             end
         end
