@@ -45,6 +45,25 @@ return {
                 }
 
             }
+        },
+        Blind = {
+            bl_meth_DEA = {
+                name = 'The DEA',
+                text = {
+                    'All Enhanced cards',
+                    'are debuffed'
+                }
+            }
+
+        },
+        Back = {
+            b_meth_methhead = {
+                name = 'Methamphetamine Deck',
+                text = {
+                    'All {C:attention}Face {}cards are',
+                    '{C:chips}Bonus{} cards and {C:chips}Foil'
+                }
+            }
         }
     }
 }
